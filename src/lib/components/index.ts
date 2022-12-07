@@ -1,4 +1,5 @@
 import CodeBlock from './CodeBlock.svelte';
+import CodeBlockFile from './CodeBlockFile.svelte';
 import TabButton from './TabButton.svelte';
 
-export { CodeBlock, TabButton };
+export { CodeBlock, CodeBlockFile, TabButton };

@@ -3,9 +3,7 @@
 </script>
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" {style}>
-  <path
-    d="M55.36,392.11V59.32H359.84V282.81h27.38V32H28V419.42H190.07V392.11Z"
-  />
+  <path d="M55.36,392.11V59.32H359.84V282.81h27.38V32H28V419.42H190.07V392.11Z" />
   <rect x="94.26" y="121.95" width="226.65" height="28.61" />
   <rect x="94.26" y="286.59" width="136.65" height="28.61" />
   <rect x="94.26" y="197.1" width="226.65" height="28.61" />

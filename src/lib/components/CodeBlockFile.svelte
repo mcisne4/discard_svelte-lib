@@ -2,10 +2,8 @@
 <script lang="ts">
   export let code: string;
   export let style = '';
-  export let description: string | null = null;
-  export let formatDescription: (code: string) => string = (code: string) => code;
+  export let filename: string;
   export let margin = '0.5rem 0';
-  export let descriptionStyle = '';
 
   let widthCode: number;
   let widthContainer: number;
@@ -29,14 +27,10 @@
   style:width={computedWidth}
   style:margin
 >
-  {#if description}
+  {#if filename}
     <div class="code-block-description">
-      <p
-        class="code-block-description-content"
-        bind:clientWidth={widthDescription}
-        style={descriptionStyle}
-      >
-        {@html formatDescription(description)}
+      <p class="code-block-description-content" bind:clientWidth={widthDescription}>
+        File: <em>{filename}</em>
       </p>
     </div>
   {/if}
@@ -62,6 +56,9 @@
     display: inline-block;
     padding: 0.25rem 1rem;
     margin: 0;
+  }
+  .code-block-description-content em {
+    color: var(--code-block-accent-fg-highlight, #fff);
   }
   .code-block-code {
     padding: 0;
