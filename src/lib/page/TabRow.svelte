@@ -1,4 +1,4 @@
-<!-- === TYPESCRIPT === -->
+<!-- === SCRIPT === -->
 <script lang="ts">
   import TabButton from '../components/TabButton.svelte';
 

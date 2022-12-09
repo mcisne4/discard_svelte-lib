@@ -1,7 +1,9 @@
+<!-- === SCRIPT === -->
 <script lang="ts">
   export let style = '';
 </script>
 
+<!-- === COMPONENT === -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" {style}>
   <polygon
     points="214.09 58.56 190.4 82.08 258.88 150.56 190.57 218.87 214.09 242.56 306.09 150.56 214.09 58.56"
@@ -21,6 +23,7 @@
   />
 </svg>
 
+<!-- === STYLE === -->
 <style>
   svg {
     fill: var(--svg-fill, #000);
@@ -28,5 +31,6 @@
     stroke-width: var(--svg-stroke-width, 15);
     height: var(--svg-height, 1rem);
     rotate: var(--svg-rotate, 0deg);
+    transition: var(--svg-transition, none);
   }
 </style>

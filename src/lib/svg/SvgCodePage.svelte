@@ -1,7 +1,9 @@
+<!-- === SCRIPT === -->
 <script lang="ts">
   export let style = '';
 </script>
 
+<!-- === COMPONENT === -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" {style}>
   <path d="M55.36,392.11V59.32H359.84V282.81h27.38V32H28V419.42H190.07V392.11Z" />
   <rect x="94.26" y="121.95" width="226.65" height="28.61" />
@@ -15,6 +17,7 @@
   />
 </svg>
 
+<!-- === STYLE === -->
 <style>
   svg {
     fill: var(--svg-fill, #000);
@@ -22,5 +25,6 @@
     stroke-width: var(--svg-stroke-width, 10);
     height: var(--svg-height, 1rem);
     rotate: var(--svg-rotate, 0deg);
+    transition: var(--svg-transition, none);
   }
 </style>

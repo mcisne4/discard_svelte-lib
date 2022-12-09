@@ -1,4 +1,4 @@
-<!-- === TYPESCRIPT === -->
+<!-- === SCRIPT === -->
 <script lang="ts">
   export let code: string;
   export let style = '';

@@ -1,3 +1,4 @@
+<!-- === SCRIPT === -->
 <script lang="ts">
   export let style = '';
   export let active = false;
@@ -21,10 +22,12 @@
   _style += style;
 </script>
 
+<!-- === COMPONENT === -->
 <button class:active style={_style} on:click>
   <slot />
 </button>
 
+<!-- === STYLE === -->
 <style>
   button {
     background-color: var(--tab-bg, #000);
